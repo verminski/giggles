@@ -1,0 +1,271 @@
+C:\Users\kubel\Desktop\Praca domowa>git log -p piosenka.txt
+commit 9d1f0ad0b48003fd0fa32032e359f16f2d136de0
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:57:43 2023 +0100
+
+    Zastapienie refren2 i refren3 tekstem refren1. Usuniecie plikow refren2.txt i refren3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index fe2e82f..d29237f 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -10,9 +10,9 @@ zwrotka4
+
+ zwrotka5
+
+-refren2
++refren1
+
+-refren3
++refren1
+
+ zwrotka6
+
+
+commit 5e97affe10c3971c23857c32e99c00dcbb2e1ad0
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:51:12 2023 +0100
+
+    Przeniesienie siodmej zwrotki do pliku zwrotka7.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index eb48001..fe2e82f 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -14,12 +14,6 @@ refren2
+
+ refren3
+
+-… Oh, my love (let you down)
+-Oh, my love (oh, let you down)
+-Love (let you down)
+-(Oh, let you down)
+-
+-… Oh, let you down
+-Oh, let you down
+-Let you down
+-Oh, let you down
+\ No newline at end of file
++zwrotka6
++
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka1.txt
+commit ca0d7345a85f814ba706c2438d444bdb4053e138
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:33:24 2023 +0100
+
+    Przeniesienie zwrotki do pliku zwrotka1.txt
+
+diff --git a/zwrotka1.txt b/zwrotka1.txt
+new file mode 100644
+index 0000000..8b6a7db
+--- /dev/null
++++ b/zwrotka1.txt
+@@ -0,0 +1,4 @@
++… Feel the rhythm of the streets
++Neon lights and neon dreams
++Bloody fists they feel no pain
++When there's so much more to gain
+\ No newline at end of file
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka2.txt
+commit 8f4d536c24bcbec80da29656ae7f37d501530706
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:34:21 2023 +0100
+
+    Przeniesienie drugiej zwrotki do pliku zwrotka2.txt
+
+diff --git a/zwrotka2.txt b/zwrotka2.txt
+new file mode 100644
+index 0000000..48d0dc9
+--- /dev/null
++++ b/zwrotka2.txt
+@@ -0,0 +1,4 @@
++… Hunting season if you will
++Tell me where'd you'd rather be
++I can hardly see the moon
++Hope we'll get there pretty soon
+\ No newline at end of file
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka3.txt
+commit 5f06ba640206742e4567db43c4992732261facd6
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:35:25 2023 +0100
+
+    Przeniesienie trzeciej zwrotki do pliku zwrotka3.txt
+
+diff --git a/zwrotka3.txt b/zwrotka3.txt
+new file mode 100644
+index 0000000..d0eab58
+--- /dev/null
++++ b/zwrotka3.txt
+@@ -0,0 +1,4 @@
++… Trying so hard to release
++You out of the misery
++Hold on to your wishes
++If you can't hold on to me
+\ No newline at end of file
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka4.txt
+commit 7218b7aabc3be50cbbd9dc2f241cf931faf90cac
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:38:04 2023 +0100
+
+    Przeniesienie czwartek zwrotki do pliku zwrotka4.txt
+
+diff --git a/zwrotka4.txt b/zwrotka4.txt
+new file mode 100644
+index 0000000..9e67162
+--- /dev/null
++++ b/zwrotka4.txt
+@@ -0,0 +1,4 @@
++… They will finally feel the flames
++Flames that run down through my veins
++I will make this city burn
++We're not planning to return
+\ No newline at end of file
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka5.txt
+commit 2233ff88b1fec42679a4d808a3a404c5d324775f
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:39:02 2023 +0100
+
+    Przeniesienie piatej zwrotki do pliku zwrotka5.txt
+
+diff --git a/zwrotka5.txt b/zwrotka5.txt
+new file mode 100644
+index 0000000..63f6048
+--- /dev/null
++++ b/zwrotka5.txt
+@@ -0,0 +1,4 @@
++… Trying so hard to be free
++To make you see what I see
++Hold on to your wishes
++If you can't hold on to me
+\ No newline at end of file
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka6.txt
+commit 5e97affe10c3971c23857c32e99c00dcbb2e1ad0
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:51:12 2023 +0100
+
+    Przeniesienie siodmej zwrotki do pliku zwrotka7.txt
+
+diff --git a/zwrotka6.txt b/zwrotka6.txt
+new file mode 100644
+index 0000000..e7d1170
+--- /dev/null
++++ b/zwrotka6.txt
+@@ -0,0 +1,4 @@
++… Oh, my love (let you down)
++Oh, my love (oh, let you down)
++Love (let you down)
++(Oh, let you down)
+\ No newline at end of file
+
+commit 4f3cc8ff5e687468656b7dc531ab4125a3df36a9
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:47:26 2023 +0100
+
+    Zle policzylem zwrotki i refrenu. Zmiany nazwy pliku zwrotka6 na refren2
+
+diff --git a/zwrotka6.txt b/zwrotka6.txt
+deleted file mode 100644
+index 9df0b39..0000000
+--- a/zwrotka6.txt
++++ /dev/null
+@@ -1,4 +0,0 @@
+-… Forgive me for letting you down
+-Forgive me for letting you down again
+-I guess I'm not strong enough
+-Right now
+\ No newline at end of file
+
+commit 9f26dbde204f0c00b9038793942aed60c6885b08
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:45:11 2023 +0100
+
+    Przeniesienie drugiego refrenu do pliku zwrotka6.txt
+
+diff --git a/zwrotka6.txt b/zwrotka6.txt
+new file mode 100644
+index 0000000..9df0b39
+--- /dev/null
++++ b/zwrotka6.txt
+@@ -0,0 +1,4 @@
++… Forgive me for letting you down
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka7.txt
+commit 5e97affe10c3971c23857c32e99c00dcbb2e1ad0
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:51:12 2023 +0100
+
+    Przeniesienie siodmej zwrotki do pliku zwrotka7.txt
+
+diff --git a/zwrotka7.txt b/zwrotka7.txt
+new file mode 100644
+index 0000000..e3e7fb4
+--- /dev/null
++++ b/zwrotka7.txt
+@@ -0,0 +1,4 @@
++… Oh, let you down
++Oh, let you down
++Let you down
++Oh, let you down
+\ No newline at end of file
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p refren 1.txt
+fatal: ambiguous argument 'refren': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p refren1.txt
+commit 61f4d962e97b82ab08c9f31c6cd324d5640368a8
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:54:29 2023 +0100
+
+    Cofniecie wykasowanej linijki tekstu z pliku refren1.txt
+
+diff --git a/refren1.txt b/refren1.txt
+index 841c613..9df0b39 100644
+--- a/refren1.txt
++++ b/refren1.txt
+@@ -1,3 +1,4 @@
+ … Forgive me for letting you down
+ Forgive me for letting you down again
+ I guess I'm not strong enough
++Right now
+\ No newline at end of file
+
+commit 09b2b1bea0a11ff41ce011f39fc545d6c6f9990b
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:52:16 2023 +0100
+
+    Usuniecie z pliku refren1.txt ostaniej linijki tekstu
+
+diff --git a/refren1.txt b/refren1.txt
+index 9df0b39..841c613 100644
+--- a/refren1.txt
++++ b/refren1.txt
+@@ -1,4 +1,3 @@
+ … Forgive me for letting you down
+ Forgive me for letting you down again
+ I guess I'm not strong enough
+-Right now
+\ No newline at end of file
+
+commit c80a93054f88b46b61eb95dfe9e44a3adde299cf
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:37:11 2023 +0100
+
+    Przeniesienie pierwszego refrenu do pliku refren1.txt
+
+diff --git a/refren1.txt b/refren1.txt
+new file mode 100644
+index 0000000..9df0b39
+--- /dev/null
++++ b/refren1.txt
+@@ -0,0 +1,4 @@
++… Forgive me for letting you down
++Forgive me for letting you down again
++I guess I'm not strong enough
