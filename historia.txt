@@ -1,3 +1,21 @@
+Microsoft Windows [Version 10.0.19045.2486]
+(c) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+
+C:\Users\kubel\Desktop\Praca domowa>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   historia.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\kubel\Desktop\Praca domowa>git add historia.txt
+
+C:\Users\kubel\Desktop\Praca domowa>git commit -m "Dodanie historii gita"
+[master 31c6be0] Dodanie historii gita
+ 1 file changed, 271 insertions(+)
+
 C:\Users\kubel\Desktop\Praca domowa>git log -p piosenka.txt
 commit 9d1f0ad0b48003fd0fa32032e359f16f2d136de0
 Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
@@ -48,6 +66,254 @@ index eb48001..fe2e82f 100644
 \ No newline at end of file
 +zwrotka6
 +
++zwrotka7
+\ No newline at end of file
+
+commit b6fee00b01a544242d4f4d81e42900bb3031d9ce
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:49:10 2023 +0100
+
+    Przeniesienie trzeciego refrenu do pliku refren3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 2cbe65b..eb48001 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -10,12 +10,9 @@ zwrotka4
+
+ zwrotka5
+
+-zwrotka6
++refren2
+
+-… Forgive me for letting you down
+-Forgive me for letting you down again
+-I guess I'm not strong enough
+-Right now
++refren3
+
+ … Oh, my love (let you down)
+ Oh, my love (oh, let you down)
+
+commit 9f26dbde204f0c00b9038793942aed60c6885b08
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:45:11 2023 +0100
+
+    Przeniesienie drugiego refrenu do pliku zwrotka6.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index bcbb3a3..2cbe65b 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -10,10 +10,7 @@ zwrotka4
+
+ zwrotka5
+
+-… Forgive me for letting you down
+-Forgive me for letting you down again
+-I guess I'm not strong enough
+-Right now
++zwrotka6
+
+ … Forgive me for letting you down
+ Forgive me for letting you down again
+
+commit 2233ff88b1fec42679a4d808a3a404c5d324775f
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:39:02 2023 +0100
+
+    Przeniesienie piatej zwrotki do pliku zwrotka5.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 8bb7ca4..bcbb3a3 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -8,10 +8,7 @@ refren1
+
+ zwrotka4
+
+-… Trying so hard to be free
+-To make you see what I see
+-Hold on to your wishes
+-If you can't hold on to me
++zwrotka5
+
+ … Forgive me for letting you down
+ Forgive me for letting you down again
+
+commit 7218b7aabc3be50cbbd9dc2f241cf931faf90cac
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:38:04 2023 +0100
+
+    Przeniesienie czwartek zwrotki do pliku zwrotka4.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index f7e71c3..8bb7ca4 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,10 +6,7 @@ zwrotka3
+
+ refren1
+
+-… They will finally feel the flames
+-Flames that run down through my veins
+-I will make this city burn
+-We're not planning to return
++zwrotka4
+
+ … Trying so hard to be free
+ To make you see what I see
+
+commit c80a93054f88b46b61eb95dfe9e44a3adde299cf
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:37:11 2023 +0100
+
+    Przeniesienie pierwszego refrenu do pliku refren1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index ed428e4..f7e71c3 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,10 +4,7 @@ zwrotka2
+
+ zwrotka3
+
+-… Forgive me for letting you down
+-Forgive me for letting you down again
+-I guess I'm not strong enough
+-Right now
++refren1
+
+ … They will finally feel the flames
+ Flames that run down through my veins
+
+commit 5f06ba640206742e4567db43c4992732261facd6
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:35:25 2023 +0100
+
+    Przeniesienie trzeciej zwrotki do pliku zwrotka3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 9cf6c48..ed428e4 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,10 +2,7 @@ zwrotka1
+
+ zwrotka2
+
+-… Trying so hard to release
+-You out of the misery
+-Hold on to your wishes
+-If you can't hold on to me
++zwrotka3
+
+ … Forgive me for letting you down
+ Forgive me for letting you down again
+
+commit 8f4d536c24bcbec80da29656ae7f37d501530706
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:34:21 2023 +0100
+
+    Przeniesienie drugiej zwrotki do pliku zwrotka2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index a298221..9cf6c48 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,9 +1,6 @@
+ zwrotka1
+
+-… Hunting season if you will
+-Tell me where'd you'd rather be
+-I can hardly see the moon
+-Hope we'll get there pretty soon
++zwrotka2
+
+ … Trying so hard to release
+ You out of the misery
+
+commit ca0d7345a85f814ba706c2438d444bdb4053e138
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:33:24 2023 +0100
+
+    Przeniesienie zwrotki do pliku zwrotka1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index d7f8521..a298221 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,7 +1,4 @@
+-… Feel the rhythm of the streets
+-Neon lights and neon dreams
+-Bloody fists they feel no pain
+-When there's so much more to gain
++zwrotka1
+
+ … Hunting season if you will
+ Tell me where'd you'd rather be
+
+commit 5b455927dbea0c38cb7a862e032aeaa211304c6f
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:31:11 2023 +0100
+
+    Dodanie pliku piosenka
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..d7f8521
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,49 @@
++… Feel the rhythm of the streets
++Neon lights and neon dreams
++Bloody fists they feel no pain
++When there's so much more to gain
++
++… Hunting season if you will
++Tell me where'd you'd rather be
++I can hardly see the moon
++Hope we'll get there pretty soon
++
++… Trying so hard to release
++You out of the misery
++Hold on to your wishes
++If you can't hold on to me
++
++… Forgive me for letting you down
++Forgive me for letting you down again
++I guess I'm not strong enough
++Right now
++
++… They will finally feel the flames
++Flames that run down through my veins
++I will make this city burn
++We're not planning to return
++
++… Trying so hard to be free
++To make you see what I see
++Hold on to your wishes
++If you can't hold on to me
++
++… Forgive me for letting you down
++Forgive me for letting you down again
++I guess I'm not strong enough
++Right now
++
++… Forgive me for letting you down
++Forgive me for letting you down again
++I guess I'm not strong enough
++Right now
++
++… Oh, my love (let you down)
++Oh, my love (oh, let you down)
++Love (let you down)
++(Oh, let you down)
++
++… Oh, let you down
++Oh, let you down
++Let you down
++Oh, let you down
+\ No newline at end of file
 
 C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka1.txt
 commit ca0d7345a85f814ba706c2438d444bdb4053e138
@@ -144,6 +410,30 @@ index 0000000..63f6048
 +If you can't hold on to me
 \ No newline at end of file
 
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka 6.txt
+fatal: ambiguous argument 'zwrotka': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka5.txt
+commit 2233ff88b1fec42679a4d808a3a404c5d324775f
+Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
+Date:   Sun Jan 22 13:39:02 2023 +0100
+
+    Przeniesienie piatej zwrotki do pliku zwrotka5.txt
+
+diff --git a/zwrotka5.txt b/zwrotka5.txt
+new file mode 100644
+index 0000000..63f6048
+--- /dev/null
++++ b/zwrotka5.txt
+@@ -0,0 +1,4 @@
++… Trying so hard to be free
++To make you see what I see
++Hold on to your wishes
++If you can't hold on to me
+\ No newline at end of file
+
 C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka6.txt
 commit 5e97affe10c3971c23857c32e99c00dcbb2e1ad0
 Author: Jakub Kondratowicz <kondratowicz.jakub.88@gmail.com>
@@ -194,6 +484,21 @@ index 0000000..9df0b39
 +++ b/zwrotka6.txt
 @@ -0,0 +1,4 @@
 +… Forgive me for letting you down
++Forgive me for letting you down again
++I guess I'm not strong enough
++Right now
+\ No newline at end of file
+
+C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka 7.txt
+fatal: ambiguous argument 'zwrotka': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+C:\Users\kubel\Desktop\Praca domowa>git lok -p zwrotka7.txt
+git: 'lok' is not a git command. See 'git --help'.
+
+The most similar command is
+        log
 
 C:\Users\kubel\Desktop\Praca domowa>git log -p zwrotka7.txt
 commit 5e97affe10c3971c23857c32e99c00dcbb2e1ad0
@@ -213,11 +518,6 @@ index 0000000..e3e7fb4
 +Let you down
 +Oh, let you down
 \ No newline at end of file
-
-C:\Users\kubel\Desktop\Praca domowa>git log -p refren 1.txt
-fatal: ambiguous argument 'refren': unknown revision or path not in the working tree.
-Use '--' to separate paths from revisions, like this:
-'git <command> [<revision>...] -- [<file>...]'
 
 C:\Users\kubel\Desktop\Praca domowa>git log -p refren1.txt
 commit 61f4d962e97b82ab08c9f31c6cd324d5640368a8
@@ -269,3 +569,7 @@ index 0000000..9df0b39
 +… Forgive me for letting you down
 +Forgive me for letting you down again
 +I guess I'm not strong enough
++Right now
+\ No newline at end of file
+
+C:\Users\kubel\Desktop\Praca domowa>
