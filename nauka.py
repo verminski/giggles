@@ -68,34 +68,34 @@ RozLis = PozPaz - PozLis
 #Grudzien2021
 PozGru = ((1+((InfGrudzien+proc)/pozyczka))*PozLis-rata)
 RozGru = PozLis - PozGru
-#Styczen12022
+#Styczen2022
 PozSty2 = ((1+((InfStyczen2+proc)/pozyczka))*PozGru-rata)
 RozSty2 = PozGru - PozSty2
-#Luty22022
+#Luty2022
 PozLut2 = ((1+((InfLuty2+proc)/pozyczka))*PozSty2-rata)
 RozLut2 = PozSty2 - PozLut2
-#Marzec22022
+#Marzec2022
 PozMarz2 = ((1+((InfMarzec2+proc)/pozyczka))*PozLut2-rata)
 RozMarz2 = PozLut2 - PozMarz2
-#Kwiecien22022
+#Kwiecien2022
 PozKwie2 = ((1+((InfKwiecien2+proc)/pozyczka))*PozMarz2-rata)
 RozKwie2 = PozMarz2 - PozKwie2
-#Maj22022
+#Maj2022
 PozMaj2 = ((1+((InfMaj2+proc)/pozyczka))*PozKwie2-rata)
 RozMaj2 = PozKwie2 - PozMaj2
-#Czerwiec22022
+#Czerwiec2022
 PozCzerw2 = ((1+((InfCzerwiec2+proc)/pozyczka))*PozMaj2-rata)
 RozCzerw2 = PozMaj2 - PozCzerw2
-#Lipiec22022
+#Lipiec2022
 PozLip2 = ((1+((InfLipiec2+proc)/pozyczka))*PozCzerw2-rata)
 RozLip2 = PozCzerw2 - PozLip2
-#Siepien22022
+#Siepien2022
 PozSie2 = ((1+((InfSierpnien2+proc)/pozyczka))*PozLip2-rata)
 RozSie2 = PozLip2 - PozSie2
-#Wrzesien22022
+#Wrzesien2022
 PozWrz2 = ((1+((InfWrzesien2+proc)/pozyczka))*PozSie2-rata)
 RozWrz2 = PozSie2 - PozWrz2
-#Pazdziernik22022
+#Pazdziernik2022
 PozPaz2 = ((1+((InfPazdziernik2+proc)/pozyczka))*PozWrz2-rata)
 RozPaz2 = PozWrz2 - PozPaz2
 #Listopad2022
